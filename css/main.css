@@ -1,0 +1,158 @@
+/* wrap */
+/* h2{color: #464646; font-size: 26px; font-weight: bolder; margin: 120px 0 25px 15px;} */
+#wrap{min-width: 1920px; margin: 0 auto;}
+
+.arrows{position: absolute; top: 50%; transform: translateY(50%);}
+.arrows li {float: left;}
+.arrows a{display: block;}
+
+/*************************** header 시작 ***************************/
+.header_in{width: 1400px; margin: 60px auto 35px auto;  position: relative;}
+.header_in .logo{left: 0;}
+
+.searchForm input{position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 715px; height: 42px; outline: none;
+  border: 2px solid #930022; border-radius: 10px; padding-left: 20px; padding-top: 5px;}
+.searchForm input::placeholder{font-size: 14px; letter-spacing: 5px;}
+.searchForm button{position: absolute; top: 13px; right: 370px;}
+
+.header_in .util{position: absolute; right: 0; top: 100%; font-size: 13px; color: #aaa;}
+.header_in .util li{float: left; margin-left: 35px;}
+.header_in .util li:hover a{color: #464646;}
+.header_in .util .login{padding-top: 40px; background: url(../img_muji/icon_user.png) no-repeat center 0 / 32px 32px;}
+.header_in .util .ship{padding-top: 40px; background: url(../img_muji/icon_shipping\ fast.png) no-repeat center 0 / 32px 32px;}
+.header_in .util .cart{padding-top: 40px; background: url(../img_muji/icon_basket.png) no-repeat center 0 / 32px 32px;}
+
+
+.gnb{width: 1280px; margin: 0 auto; position: relative;}
+.gnb .ham li{width: 40px; height: 5px; border: 3px solid #930022; box-sizing: border-box;margin-bottom: 8px; font-size: 0;}
+.gnb .ham li:last-child{margin-bottom: 0;}
+
+
+.gnb .gnb_in{position: absolute; top: 0; left: 124px}
+.gnb .gnb_in li{float: left; font-size: 20px; font-weight: bold; color: #464646; margin-right: 90px;}
+.gnb .gnb_in li:hover a{color: #930022;}
+.gnb .gnb_in li:nth-child(2){color: #930022;}
+.gnb .gnb_in li:last-child{margin-right: 0;}
+
+.gnb2{width: 1280px; margin: 55PX auto 25px auto; position: relative;}
+.gnb2>a{display: block; font-size: 11px; color: #999;padding-left: 20px;
+  background: url(../img_muji/icon_home.png)no-repeat 7px 1px;}
+.gnb2 a:hover {color: #464646;}
+.gnb2 h2{color: #464646; font-size: 26px; font-weight: bolder;}
+.gnb2_in{position: absolute; left: 110px; top: 50%;}
+.gnb2_in li{float: left; margin-left: 18px; font-size: 15px; color: #999;}
+.gnb2_in li:hover a{color: #464646; font-weight: 600;}
+.gnb2_in .on{color: #464646; font-weight: 600;}
+
+.submit{width: 25px; height: 25px; background: url(../img_muji/icon_search.png)no-repeat center center / 25px 25px; font-size: 0;}
+
+
+/*************************** mainVisual 시작 ***************************/
+#mainVisual{width: 1920px; height: 650px; margin: 35px auto 35px auto; position: relative;}
+#mainVisual .mv_img li{float: left;margin-right: 58px;}
+#mainVisual .mv_img li:last-child{margin-right: 0;}
+
+.dots{position: absolute; left: 50%; transform: translateX(-50%); margin-top: 20px; font-size: 0;}
+.dots li{float: left;}
+.dots li a{display: block;width: 8px; height: 8px; border: 5px solid #999; border-radius: 100%; box-sizing: border-box; margin: 8px;}
+.dots li a:hover{width: 8px; height: 8px; border: 5px solid #464646; border-radius: 100%; box-sizing: border-box; margin: 8px;}
+
+#mainVisual .arrows li:first-child{margin-left: 262px;}
+#mainVisual .arrows li:last-child{margin-left: 1344px;}
+
+
+
+
+/*************************** container 시작 ***************************/
+#container{width: 1400px; margin: 100px auto 0 auto;}
+
+.prod{margin-top: 10px; padding-left: 10px;}
+.prod .tit{font-size: 12px; color: #464646;}
+.prod .tit:hover{font-size: 12px; color: #464646;}
+.prod .price{font-size: 14px; font-weight: 600; color: #464646; line-height: 20px;}
+.prod .price span{font-size: 12px; color: #930022;}
+.prod .cart{font-size: 12px; color: #464646;}
+.prod .cart span{font-size: 12px; font-weight: 600; color: #930022;}
+.like span{font-size: 12px; font-weight: 600; color: #930022;}
+.heart::before{content: ''; background: url(../img_muji/icon_heart_red.png) no-repeat center center / 12px 12px; padding-left: 15px;}
+.like::before{content: ''; background: url(../img_muji/free-icon-font-star.png) no-repeat center center / 12px 12px; padding-left: 15px;}
+.like::after{content: ''; background: url(../img_muji/icon_basket\ plus.png) no-repeat center center / 12px 12px; padding-right: 25px;}
+
+
+
+
+
+
+/* cont1 시작 */
+.cont1{margin-bottom: 125px;}
+.cont1 .cont1_img{position: relative;}
+.cont1 .cont1_img li{width: 320px; float: left; margin-right: 40px;}
+.cont1 .cont1_img li:last-child {margin-right: 0;}
+.cont1 .cont1_img li img{width: 320px; height: 350px; border-radius: 10px; overflow: hidden;}
+
+.cont1{position: relative;}
+.cont1 .arrows{top: 160px}
+.cont1 .arrows li:last-child{margin-left: 1355px;}
+
+/* cont2 시작 */
+.cont2{margin-bottom: 125px;}
+.cont2 .cont2_img{position: relative;}
+.cont2 .cont2_img li{width: 320px; float: left; margin-right: 40px;}
+.cont2 .cont2_img li:last-child {margin-right: 0;}
+.cont2 .cont2_img li img{width: 320px; height: 350px; border-radius: 10px; overflow: hidden;}
+
+.cont2{position: relative;}
+.cont2 .arrows{top: 160px}
+.cont2 .arrows li:last-child{margin-left: 1355px;}
+
+/* cont3 시작 */
+.cont3{margin-bottom: 125px;}
+.cont3 .cont3_img{position: relative;}
+.cont3 .cont3_img li{width: 320px; float: left; margin-right: 40px;}
+.cont3 .cont3_img li:last-child {margin-right: 0;}
+.cont3 .cont3_img li img{width: 320px; height: 350px; border-radius: 10px; overflow: hidden;}
+
+.cont3{position: relative;}
+.cont3 .arrows{top: 160px}
+.cont3 .arrows li:last-child{margin-left: 1355px;}
+
+
+
+
+/*************************** footer 시작 ***************************/
+
+
+#footer{border-top: 1px solid #ddd; padding-top: 40px;}
+.footer_in{width: 1400px; height: 220px; margin: 0 auto; position: relative;}
+
+.ft_l{position: absolute; left: 0; width: 423px; height: 220px; border-right:1px solid #eee; box-sizing: border-box; padding-left: 30px;}
+.L_in .co{color: #464646; font-size: 18px; font-weight: 600; margin-bottom: 20px;
+  background: url(../img_muji/icon_footer.png) no-repeat 142px center;}
+.L_in li a{display: block;}
+.sub{color: #999; line-height: 25px;}
+
+.L_in>li .sub{ display: none;}
+.L_in li:hover .sub{display: block;}
+
+.f_tel{position: absolute; left: 30px; bottom: 0;}
+.f_tel li{float: left; margin-right: 30px; color: #999;}
+.f_tel li:hover a{color: #464646;}
+
+.c_in .f_info{position: absolute; left: 423px; width: 554px; height: 220px; border-left:  1px solid #eee; box-sizing: border-box;}
+.c_in .f_info dl{float: left; width: 125px; padding-left: 15px; padding-right: 15px;}
+.c_in .f_info dl dt{color: #464646; font-size: 18px; font-weight: 600; margin-bottom: 20px;}
+.c_in .f_info dl dd{line-height: 30px; color: #999;}
+.c_in .f_info dl dd:hover a{color: #464646;}
+
+
+
+.r_in .f_menu{position: absolute; right: 0; width: 423px; height: 220px; border-left:  1px solid #eee; box-sizing: border-box;}
+.r_in .f_menu dl{float: left; width: 125px; padding-left: 15px;}
+.r_in .f_menu dl dt{color: #464646; font-size: 18px; font-weight: 600; margin-bottom: 20px;}
+.r_in .f_menu dl dd{line-height: 30px; color: #999;}
+.r_in .f_menu dl dd:hover a{color: #464646;}
+
+
+.plus{position: absolute; left: 992px; bottom: 0;}
+.plus li{float: left; margin-right: 30px; color: #999;}
+.plus li:hover a{color: #464646;}
